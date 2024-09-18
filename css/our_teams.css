@@ -1,0 +1,77 @@
+.our_teams_text_1{
+    font-family: Poppins Bold;
+    font-size: clamp(30px, 3.2vw, 56px);
+}
+
+.our_teams_text_2{
+    font-family: Poppins Regular;
+    font-size: clamp(15px, 1.3vw, 18px);
+}
+
+.our_teams_img img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+.designer_text_1{
+    font-family: Poppins Semibold;
+    font-size: clamp(22.5px, 2.6vw, 36px);
+}
+
+.designer_text_2{
+    font-family: Poppins Regular;
+    color: #9C9C9C;
+    font-size: clamp(15px, 1.3vw, 18px);
+}
+
+.block{
+    position: relative;
+}
+
+.designer_text_3{
+    font-family: Poppins Semibold;
+    font-size: clamp(14px, 1.6vw, 24px);
+}
+
+.designer_text_4{
+    font-family: Poppins Regular;
+    font-size: clamp(13px, 1vw, 16px);
+    color: #9C9C9C;
+}
+
+@media(max-width: 576px){
+    .our_teams_img_1{
+        background-color: #2C3878;
+        width: 45%;
+    }
+
+    .block_text{
+        position: absolute;
+        width: 40%;
+        bottom: 10px;
+        left: 30%;
+        background-color: white;
+    }
+}
+
+@media(min-width: 576px){
+    .our_teams_img_1{
+        background-color: #2C3878;
+        width: 90%;
+    }
+
+    .block_text{
+        position: absolute;
+        width: 80%;
+        bottom: 10px;
+        left: 10%;
+        background-color: white;
+    }
+}

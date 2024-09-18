@@ -1,0 +1,114 @@
+.contact__us_text_1{
+    font-family: Poppins Bold;
+    font-size: clamp(30px, 3.2vw, 56px);
+}
+
+.contact__us_text_2{
+    font-family: Poppins Regular;
+    font-size: clamp(15px, 1.3vw, 18px);
+}
+
+
+
+
+
+
+
+
+
+.block_flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.content_text_1{
+    font-family: Poppins Medium;
+    font-size: clamp(15px, 1.3vw, 18px);
+}
+
+.content_text_2{
+    font-family: Poppins Regular;
+    font-size: clamp(10px, 1vw, 16px);
+    color: #9C9C9C;
+}
+
+.phone{
+    border-left: none;
+}
+
+.form-control{
+    border-radius: 0;
+    border-color: #9C9C9C;
+}
+
+.form-control:focus,
+.form-control:active{
+    outline: none;
+    box-shadow: none;
+    border-color: #9C9C9C;
+}
+
+.form-select{
+    border-radius: 0;
+    border-color: #9C9C9C;
+    border-right: none;
+    font-family: Poppins Medium;
+    font-size: clamp(12.5px, 1.25vw, 15px);
+}
+
+.form-select:focus,
+.form-select:active{
+    outline: none;
+    box-shadow: none;
+    border-color: #9C9C9C;
+}
+
+.btn_form{
+    font-family: Poppins Regular;
+    font-size: clamp(10px, 1vw, 14px);
+}
+
+.btn_form.btn-primary, .btn_form.btn-primary:hover, .btn_form.btn-primary:active, .btn_form.btn-primary:visited {
+    background-color: #2C3878 !important;
+    border: none;
+    border-radius: 0;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 1px solid #9C9C9C;
+  -webkit-text-fill-color: black;
+  -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+
+
+
+
+
+
+
+
+.location_text_1{
+    font-family: Poppins Semibold;
+    font-size: clamp(20px, 2.2vw, 36px);
+}
+
+.location_text_2{
+    font-family: Poppins Regular;
+    font-size: clamp(15px, 1.3vw, 18px);
+    color: #9C9C9C;
+}
+
+.location_text_3{
+    font-family: Poppins Semibold;
+    font-size: clamp(17.5px, 1.6vw, 24px);
+}

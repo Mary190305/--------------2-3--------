@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/contact_us.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <link rel="icon" href="pictures/Лого.png"type="image/x-icon">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg mb-lg-5 mb-sm-4">
+        <div class="container">
+          <img src="pictures/Лого.png" alt="" class="nav_img">
+          <button class="burger navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-sm-3 me-lg-0">
+              <li class="nav-item align-self-lg-center align-self-end mx-lg-5">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item align-self-lg-center align-self-end mx-lg-5">
+                <a class="nav-link active" href="z_about_us.html">About Us</a>
+              </li>
+              <li class="nav-item align-self-lg-center align-self-end mx-lg-5">
+                <a class="nav-link active" href="z_services.html">Services</a>
+              </li>
+              <li class="nav-item align-self-lg-center align-self-end mx-lg-5">
+                <a class="nav-link active" href="z_our_teams.html">Our Teams</a>
+              </li>
+              <li class="nav-item align-self-end">
+                <a class="nav-link active pe-0" href="#"><button class="btn btn-primary nav_btn px-4 py-2 ms-lg-5">Contact Us</button></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <header class = "mb-lg-4 mb-sm-3">
+      <div class="container">
+          <div class="row">
+              <div class="col-12">
+                  <p class = "text-center contact__us_text_1">Contact Us</p>
+                  <p class = "text-center contact__us_text_2">It is a long established fact that a reader will be
+                      distracted by the readable content of a page when looking at its layout.</p>
+              </div>
+          </div>
+      </div>
+    </header>
+
+    <form class="mb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-9 block_flex m-auto">
+            <div class="col-6">
+              <div class="content p-2">
+                <label class="form-label content_text_1">First Name</label>
+                <input type="text" class="form-control py-3 px-4 content_text_2" placeholder="First Name" aria-label="First Name">
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="content p-2">
+                <label class="form-label content_text_1">Last Name</label>
+                <input type="text" class="form-control py-3 px-4 content_text_2" placeholder="Last Name" aria-label="Last Name">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-9 m-auto">
+            <div class="content p-2">
+              <label class="form-label content_text_1">Email</label>
+              <input type="email" class="form-control py-3 px-4 content_text_2" placeholder="Email" aria-label="Email">
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-9 m-auto">
+            <div class="content p-2">
+              <label class="form-label content_text_1">Phone Number</label>
+              <div class="input-group">
+                <div class="col-4 col-sm-3 col-md-2 col-xl-1">
+                  <select class="form-select py-3 px-4" aria-label="Default select example">
+                    <option selected class = "option">US</option>
+                    <option value="1">RU</option>
+                    <option value="2">GB</option>
+                    <option value="3">DE</option>
+                    <option value="3">FR</option>
+                    <option value="3">JP</option>
+                    <option value="3">CN</option>
+                  </select>
+                </div>
+                <input type="tel" class="form-control py-3 px-4 content_text_2 phone" placeholder="Phone Number" aria-label="Phone Number">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mb-4">
+          <div class="col-9 m-auto">
+            <div class="content p-2">
+              <label for="exampleFormControlTextarea1" class="form-label content_text_1">Message</label>
+              <textarea class="form-control py-3 px-4 content_text_2" id="exampleFormControlTextarea1" rows="5" placeholder="Your Message" aria-label="Your Message"></textarea>
+            </div>
+          </div>
+        </div>
+        <div class="btn_send_massage d-flex justify-content-center">
+          <button type="reset" class="btn btn-primary btn_form px-3 py-2">Send Massage</button>
+        </div>
+        
+
+      </div>
+    </form>
+
+    <div class="location mb-5">
+      <div class="container">
+        <div class="row">
+          <div class="main_block_1 mb-3">
+              <span class = "text-uppercase main_text_1 me-4">location</span>
+              <div class="line"></div>   
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-4 col-md-4 col-sm-12 text-sm-center text-md-start">
+            <p class = "location_text_1 mb-4">Visit Our Stores</p>
+            <p class = "location_text_2 mb-5">Find us at these locations.</p>
+            <span class = "location_text_3">Email</span>
+            <p class = "location_text_2 mb-4">dananz@gmail.com</p>
+            <span class = "location_text_3">Phone</span>
+            <p class = "location_text_2 mb-5">+62 815 002 1000</p>
+          </div>
+
+          <div class="col-xl-4 col-md-4 col-sm-6">
+            <div class="col-12 mb-5">
+              <p class="location_text_3">Jakarta</p>
+              <p class="location_text_2">Customize your interior design into a dream place with the best designers
+                and quality furniture. We try our best to fulfill your expectations.</p>
+            </div>
+            <div class="col-12 mb-5">
+              <p class="location_text_3">Yogyakarta</p>
+              <p class="location_text_2">Customize your interior design into a dream place with the best designers
+                and quality furniture. We try our best to fulfill your expectations.</p>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-md-4 col-sm-6">
+            <div class="col-12 mb-5">
+              <p class="location_text_3">Surakarta</p>
+              <p class="location_text_2">Customize your interior design into a dream place with the best designers
+                and quality furniture. We try our best to fulfill your expectations.</p>
+            </div>
+            <div class="col-12 mb-5">
+              <p class="location_text_3">Bandung</p>
+              <p class="location_text_2">Customize your interior design into a dream place with the best designers
+                and quality furniture. We try our best to fulfill your expectations.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact_us mb-5">
+      <div class="container">
+          <div class="row mt-md-5 py-lg-5 py-sm-4">
+              <div class="col-6 align-self-center">
+                  <span class = "text-white contact_us_text_1">let's discuss making your interior <br> like a dream place!</apsn>
+              </div>
+              <div class="col-6 align-self-center">
+                  <p class = "text-white contact_us_text_2 mt-4 mt-sm-0">Contact us below to work together to build your <br> amazing interior</p>
+                  <button class="btn btn-primary btn_contact_us btn-sm px-4 py-2 mb-4 mb-sm-0"><a href="z_contact_us.html">Contact Us</a></button>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="contacts mb-5">
+      <div class="container">
+          <div class="row">
+              <div class="col-6">
+                  <img src="pictures/Лого.png" class = "contacts_img_1" alt="">
+                  <p class = "contacts_text_1">One of the best furniture <br> agency.</p>
+              </div>
+              <div class="col-6 align-self-center">
+                  <div class="contacts_block_2">
+                      <p class = "contacts_text_2 align-self-center"></p>
+                      <p class = "contacts_text_3 ms-3">Enter  your email to get the laterst news</p>
+                  </div>
+                  <div class="contacts_block_3 mb-4">
+                      <span class = "contacts_text_4 align-self-center mb-2">Email Address</span>
+                      <span class = "arrow ms-auto mb-2">&#8594;</span>
+                  </div>
+                  <div class="row">
+                      <div class="col-6">
+                          
+                      </div>
+                      <div class="col-6">
+                          <p class = "contacts_text_5">Follow us On</p>
+                          <div class="row">
+                              <div class="col-2 pe-4">
+                                  <div class="icon_circle mb-2">
+                                      <i class='fab fa-facebook'></i>
+                                  </div>
+                              </div>
+                              <div class="col-2 pe-4">
+                                  <div class="icon_circle">
+                                      <i class='fab fa-instagram'></i>
+                                  </div>
+                              </div>
+                              <div class="col-2 pe-4">
+                                  <div class="icon_circle">
+                                      <i class='fab fa-tiktok'></i>
+                                  </div>
+                              </div>
+                              <div class="col-2">
+                                  <div class="icon_circle">
+                                      <i class='fab fa-youtube'></i>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
